@@ -26,6 +26,8 @@ docker run <image-name>
 	Example:
 	docker run nginx
 
+The `docker run` command create a new container of an image and start it.
+
 The above command starts the container in the attached mode. To start the container in detached mode use following option:
 
 ```
@@ -67,10 +69,17 @@ docker stop <container-id>
 docker start <container-id>
 ```
 
+The `docker start` command starts the container.
+
 
 * Logging
 ```
 docker logs <container-id>
+```
+
+Get the terminal of running container:
+```
+docker exec -it <container-id> /bin/bash
 ```
 
 
