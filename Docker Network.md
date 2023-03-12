@@ -20,7 +20,9 @@ docker network create mongo-network
 ```
 
 ```
-	docker run -d --network mongo-network --name mongo-db-name \
+	docker run -d \
+	--network mongo-network \
+	--name mongo-db \
 	-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
 	-e MONGO_INITDB_ROOT_PASSWORD=secret \
 	mongo
@@ -31,7 +33,7 @@ docker network create mongo-network
 	-p 8081:8081 \
     --network mongo-network \
     --name mongo-express \
-    -e ME_CONFIG_MONGODB_SERVER="mongo-db-name" \
+    -e ME_CONFIG_MONGODB_SERVER="mongo-db" \
     -e ME_CONFIG_MONGODB_ADMINUSERNAME="mongoadmin" \
     -e ME_CONFIG_MONGODB_ADMINPASSWORD="secret" \
     mongo-express
