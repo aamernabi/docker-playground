@@ -28,3 +28,14 @@ services: # container list
 ```
 
 We don't need to create and configure docker network. The  docker compose takes care of creating a common network for the containers.
+  
+
+Run docker-compose file:
+
+```
+sudo docker compose -f mongo.yaml up
+```
+
+```
+sudo docker compose -f mongo.yaml down
+```
