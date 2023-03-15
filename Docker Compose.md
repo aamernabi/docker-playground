@@ -36,6 +36,7 @@ Run docker-compose file:
 sudo docker compose -f mongo.yaml up
 ```
 
+To remove all the config:
 ```
 sudo docker compose -f mongo.yaml down
 ```
