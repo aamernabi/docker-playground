@@ -10,6 +10,17 @@ Image is the actual **package/artifact** (containing the application code and ev
 
 A container is an instance of that image running in an isolated environment. A **container** is a running enviroment for **image**.
 
+List all images:
+
+```
+docker images
+```
+
+Remove an image:
+
+```
+docker rmi <image-id>
+```
 
 ### Build Docker Image of app
 

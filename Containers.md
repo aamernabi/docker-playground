@@ -21,3 +21,17 @@ A container is a standardized unit of software that packages up an application a
 For example, to start a container using the Nginx image and map port 80 on the host machine to port 80 in the container, you can run:
 
 `docker run -p 80:80 nginx`
+
+
+List all running containers
+```
+docker ps
+```
+	List running and not running containers
+	docker ps -a
+
+
+Remove container
+```
+docker rm <container-id-or-name>
+```
