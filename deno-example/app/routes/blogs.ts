@@ -1,7 +1,7 @@
 import { RouterContext } from '../deps.ts'
 import db from '../mongodb.ts'
 
-const blogsCollection = db.collection('blogs')
+const blogsCollection = db?.collection('blogs')
 
 const getBlogs = async (ctx: RouterContext) => {
   const blogs = await blogsCollection.find().toArray()
