@@ -21,14 +21,14 @@ Example:
 ```
 FROM denoland/deno:alpine
 
-WORKDIR /deno-example
+WORKDIR /home/app  
 
 ENV MONGO_DB_USER=admin \
 	MONGO_DB_PWD=password
 
-RUN mkdir -p /home/denoexampleapp
+RUN mkdir -p /home/app
 
-COPY . /deno-example
+COPY ./app /home/app
 
 EXPOSE 4000
 
