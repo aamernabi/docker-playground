@@ -28,10 +28,10 @@ Here's a brief overview of some of the most commonly used Docker objects:
 -   **Swarm**: Docker Swarm is a tool used to manage clusters of Docker nodes. It provides features like load balancing, service discovery, and automatic container placement and scaling.
 
 
-1. [Docker Basic Commands](Basic Commands.md)
-2. [Docker Images](Docker Image.md)
+1. [Docker Basic Commands](BasicCommands.md)
+2. [Docker Images](DockerImage.md)
 3. [Docker Containers](Containers.md)
-4. [Docker Network](Docker Network.md)
+4. [Docker Network](DockerNetwork.md)
 5. [Dockerfile](Dockerfile.md)
-6. [Docker Compose](Docker Compose.md)
-7. [Docker Volumes](Docker Volumes.md)
+6. [Docker Compose](DockerCompose.md)
+7. [Docker Volumes](DockerVolumes.md)

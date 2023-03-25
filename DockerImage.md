@@ -1,5 +1,5 @@
 
-# Docker Imag
+# Docker Image
 
 A **Docker Image** is a read-only template that contains a set of instructions for creating a **Docker container**.
 
