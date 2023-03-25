@@ -1,3 +1,6 @@
+
+# Docker Volumes
+
 **Docker volumes** are a way to **persist data** between containers and the host machine. A Docker volume is a directory or a file that is stored outside the container's file system and is managed by Docker.
 
 Volumes can be used to store data that needs to persist between container restarts or to share data between containers. When you create a volume in Docker, it is stored on the host machine in a specific location. The folder in the physical host file system is mounted into the the virtual file system of Docker.

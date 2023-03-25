@@ -1,4 +1,6 @@
 
+# Containers
+
 What is a **Container**? 
 
 A container is a standardized unit of software that packages up an application and all its dependencies into a single, portable unit. Technically, a container is made up of **layers of images** stacked on top of each other and at the base we have **Linux Base Image** (because small in size).

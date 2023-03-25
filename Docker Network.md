@@ -1,4 +1,6 @@
 
+# Docker Network
+
 **Docker network** is a feature in Docker that enables containers to communicate with each other and with other network resources, such as the internet or other Docker hosts. It allows you to create virtual networks that can be used by containers to communicate with each other as if they were on the same physical network.
 
 By default, Docker creates a bridge network when it is installed. This network enables communication between containers on the same host but does not allow containers on different hosts to communicate with each other.
