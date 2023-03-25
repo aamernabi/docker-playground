@@ -11,5 +11,5 @@ COPY ./app /home/app
 
 EXPOSE 4000
 
-CMD ["deno", "run", "--allow-net", "index.ts"]
+CMD ["deno", "run", "--allow-net", "--allow-env", "--allow-read", "index.ts"]
 
